@@ -1,3 +1,5 @@
+var B, X, SIZE_MAX = Math.pow(2, 32) - 1;
+
 sjcl.misc.scrypt = function(passwd, salt, N, r, p, dkLen) {
 
   function flipEndian(x) {
